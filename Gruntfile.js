@@ -217,7 +217,7 @@ module.exports = (grunt) => {
         connect: {
             website: {
                 options: {
-                    hostname: "127.0.0.1",
+                    hostname: "172.17.0.2",
                     base: "dist/website",
                 },
             },
